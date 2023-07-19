@@ -1,5 +1,5 @@
 # Software Engineering Summative 1 Assignment
-### Assignment Aim
+### Assignment Aim 🎯
 The aim of this assignment is to create a simple web app written in HTML, CSS and JavaScript and to document the full project using a project management tool such as Github. 
 
 To achieve this outcome, many steps were undertaken to replicate a software development project. The flow can be seen in figure 1 and is explained in further detail below.

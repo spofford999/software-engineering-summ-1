@@ -5,7 +5,7 @@ The aim of this assignment is to create a simple web app written in HTML, CSS an
 To achieve this outcome, many steps were undertaken to replicate a software development project. The flow can be seen in figure 1 and is explained in further detail below.
 
 <p align="center">
-  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/Flowchart.jpg?raw=true"/><br>
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Flowchart.jpg?raw=true"/><br>
   <em>Figure 1 - Simple flow of the software engineering process</em>
 </p>
 
@@ -27,23 +27,36 @@ Once all tickets are approved and the tickets are closed, the main code should c
 To keep the project fun and interesting, I chose to create a simple web app based on a popular internet meme that originated in 2005, known as “Banana for Scale” (Know your meme, 2014). It first originated on a blog called Rockdogdesigns with a description that a TV was for sale. Below is the original post.
 
 <p align="center">
-  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/Blog%20Post.jpg?raw=true" alt="drawing" width="600"/> <br>
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Blog%20Post.jpg?raw=true" alt="drawing" width="600"/> <br>
   <em>Figure 2 - The origin of banana for scale</em>
 </p>
 
 It then became a form of joke on the internet as the banana size had no defined length but was being used to compare the size of items from animals to furniture, especially on the popular internet site Reddit, where the topic has its own subreddit for posts specifically dedicated to this topic (https://www.reddit.com/r/BananasForScale/).
-
+<br>
+<br>
 
 ### Design & Functionality
 
-As the assignment task was to keep the coding simple, the approach to the web app would be to create a simple calculator to take an input of a length or distance and divide by a fixed value specified for the size of the banana size to explain how many bananas equivalent in length.
+As the assignment task was to keep the coding simple, the approach to the web app would be to create a simple calculator to take an input of a length or distance and divide by a fixed value specified for the size of the banana size to explain how many bananas were equivalent to the input length.
 <br>
 <p align="center">
-  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/Flowchart%202.jpg?raw=true"/><br>
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Flowchart%202.jpg?raw=true"/><br>
   <em>Figure 3 - Simple flowchart of the web app functionality</em>
 </p>
+<br>
 
 ### Prototyping in Figma - Image and Functionality
+
+Figure 4 shows the prototyping from basic layout to final apperance created on Figma. The initial wire frame was just to show a rough layout of the key items required based on the above flow chart. The second image adds more clarity to the text that will appear as the web app is used. Finally the third picture shows the colours and images created for the app as a final proposed design. Playful fonts, colour and images were used based on the light hearted topic of the app!
+
+<p align="center">
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Prototype%201.jpg?raw=true" alt="drawing" width="1000"/> <br>
+  <em>Figure 4 - Prototyping process</em>
+</p>
+
+Figma was also used to preview some basic functionality of the app.
+
+
 
 ### Creating a list of issues
 
@@ -64,5 +77,5 @@ As the assignment task was to keep the coding simple, the approach to the web ap
 ### Evaluation
 
 ### References
-Know your meme. (2014). Banana for Scale. [Online]. Know your meme. Last Updated: 2021. Available at: https://knowyourmeme.com/memes/banana-for-scale [Accessed 19 July 2023].
+Know your meme. (2014). *Banana for Scale*. [Online]. Know your meme. Last Updated: 2021. Available at: https://knowyourmeme.com/memes/banana-for-scale [Accessed 19 July 2023].
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"></html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,5 +25,22 @@
     <h4>Wow! That's a lot of bananas! </h4>
     
 </body>
+
+<script src="script.js"></script>
+<script>
+    const inputForm = document.getElementById("input-form")
+    const inputBox = document.getElementById("input-field")
+    const outputBox = document.getElementById("output-field")
+    
+    inputForm.addEventListener('submit', event => {
+        let num1 = inputBox.value;
+        let result = banana_scale(num1);
+            
+
+        event.preventDefault();
+        outputBox.innerHTML=result;
+
+});
+</script>
 
 </html>

@@ -26,4 +26,21 @@
     
 </body>
 
+<script src="script.js"></script>
+<script>
+    const inputForm = document.getElementById("input-form")
+    const inputBox = document.getElementById("input-field")
+    const outputBox = document.getElementById("output-field")
+    
+    inputForm.addEventListener('submit', event => {
+        let num1 = inputBox.value;
+        let result = banana_scale(num1);
+            
+
+        event.preventDefault();
+        outputBox.innerHTML=result;
+
+});
+</script>
+
 </html>

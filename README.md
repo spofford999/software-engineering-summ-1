@@ -37,7 +37,7 @@ It then became a form of joke on the internet as the banana size had no defined 
 
 ### Design & Functionality
 
-As the assignment task was to keep the coding simple, the approach to the web app would be to create a simple calculator to take an input of a length or distance and divide by a fixed value specified for the size of the banana size to explain how many bananas were equivalent to the input length.
+As the assignment task was to keep the coding simple, the approach to the web app was to create a simple calculator to take an input of a length or distance and divide by a fixed value specified for the size of the banana size to explain how many bananas were equivalent to the input length.
 <br>
 <p align="center">
   <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Flowchart%202.jpg?raw=true"/><br>
@@ -54,9 +54,12 @@ Figure 4 shows the prototyping from basic layout to final apperance created on F
   <em>Figure 4 - Prototyping process</em>
 </p>
 
-Figma was also used to preview some basic functionality of the app.
+Figma was also used to preview some basic functionality of the app. In this prototype, the blue arrow attached to the yellow button "How many bananas?" is connected to a second page with the heading calculation. In the prototype mode, clicking on the yellow button takes the user to this second page, which also produces an output number. This is not a calculation but purely to demonstrate the basic functionality of the app. This prototyping tool was useful as it helped open up new ideas and requirements of the design.
 
-
+<p align="center">
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Prototype%202.jpg?raw=true" alt="drawing" width="600"/> <br>
+  <em>Figure 5 - Prototyping functionality</em>
+</p>
 
 ### Creating a list of issues
 

@@ -1,0 +1,11 @@
+{
+  "name": "software-engineering-summ-1",
+  "version": "1.0.0",
+  "description": "The aim of this assignment is to create a simple web app written in HTML, CSS and JavaScript and to document the full project using a project management tool such as Github.",
+  "main": "script.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -75,7 +75,7 @@ For this project, each activity will be created as an issue on Github, so no tas
 The issues will be logged on a kanban board which help the scrum master to understand how the project is progressing and any specific issues can be escalated in the morning team scrum. For this project, as I am the only developer, each issue will be completed one by one. However, if there were a team of more developers, the kanban board would be even more useful to visualise quickly how the teams progress on the project is going.
 
 ### Creating a list of issues 📋
-A ticketing system was created to list all the features required for the project. The idea is that one ticket / issue is created for each feature required. Each item is then created on a separate branch which is then submitted to Github as a pull request. If the approver approves of the changes and they meet the requirement, then the updated information can be pushed to the main code.
+A ticketing system was created to list all the features required for the project. The idea is that one ticket / issue is created for each feature required. Each item is then created on a separate branch which is then submitted to Github as a pull request. If the approver approves of the changes and they meet the requirement, then the updated information can be merged to the main code.
 
 ### Kanban board at start 🟥🟧🟨🟩
 To help visualise the issues, a kanban project board was used to identify the status of the various tasks. The image in figure 6 shows the list of issues in the to-do section. As tasks are progressed, they will move along the kanban headings until they are all in the "Done" section of the board, indicating the project is complete.
@@ -91,7 +91,7 @@ To help visualise the issues, a kanban project board was used to identify the st
 To start working through the issues, initially this repository was cloned so it could be opened in VScode. This allowed for file creation, text editing and the de-bugging of code. VScode was used to write all coding elements for this project.
 
 #### Branch - Create HTML & CSS files and explanation of pull requests.
-The first issue for the project was to create the html and css file, as shown in Figure 7. Both the html and css file were created on a new branch within VScode called html-css. It was clearly named to help the future approver understand the issue being worked on. If the changes were not made on a new branch and instead on the main branch, there is a risk that there could be a bug in the code which would effect all the main code. By creating a separate branch allows the code to be reviewed before pushing the new features to the main code.
+The first issue for the project was to create the html and css file, as shown in Figure 7. Both the html and css file were created on a new branch within VScode called html-css. It was clearly named to help the future approver understand the issue being worked on. If the changes were not made on a new branch and instead on the main branch, there is a risk that there could be a bug in the code which would effect all the main code. By creating a separate branch allows the code to be reviewed before merging the new features to the main code.
 
 <br>
 <p align="center">
@@ -100,7 +100,7 @@ The first issue for the project was to create the html and css file, as shown in
 </p>
 <br>
 
-Once the files were created, they needed to be committed to the repository which creates a pull request. An example of the pull request for this issue can be seen in figure 8. The pull request requires someone to approve the changes and push them to the main code by merging the pull request. This gives the approver the option to review the changes, and can comment on the change, approve it or request changes if potentially the updates did not meet the criteria of the ticket. Pull requests were used for all changes when committing new code to the repository.
+Once the files were created, they needed to be committed to the repository which creates a pull request. An example of the pull request for this issue can be seen in figure 8. The pull request requires someone to approve the changes and merge them to the main code by merging the pull request. This gives the approver the option to review the changes, and can comment on the change, approve it or request changes if potentially the updates did not meet the criteria of the ticket. Pull requests were used for all changes when committing new code to the repository.
 
 <br>
 <p align="center">
@@ -188,10 +188,14 @@ The kanban board shows the completion of all tasks to the Done section of the Ka
 <br>
 
 ### Evaluation 💭
-I am very pleased with my performance in this project because, prior to this, my experience with HTML and JavaScript was quite limited. One of the things that really helped me throughout the project was creating a list of issues, which allowed me to keep track of all the necessary tasks. This approach helped me stay focused and organized. The use of a kanban system to log task is certainly something I will use in future projects within my workplace.
-Working with GitHub and VSCode was an enjoyable experience for me as this was also produced new challenges. Leveraging pull requests was particularly beneficial as it helped me maintain better source control and avoid any potential conflicts with the main code. As I worked on this project on my own I approved all pull requests. It would have been interesting for someone else to be involved as an approver so add more comments / reject certain changes to create a more accurate real-life scenario.
+I am very pleased with my performance in this project because, prior to this, my experience with HTML and JavaScript was quite limited. One of the things that really helped me throughout the project was creating a list of issues, which allowed me to keep track of all the necessary tasks. This approach helped me stay focused and organised. The use of a kanban system to log task is certainly something I will use in future projects within my workplace.
+
+Working with GitHub and VSCode was an enjoyable experience for me as this was also produced new challenges. Using pull requests was particularly beneficial as it helped me maintain better source control and avoid any potential conflicts with the main code. As I worked on this project on my own, I approved all pull requests. It would have been interesting for someone else to be involved as an approver so add more comments / reject certain changes to create a more accurate real-life scenario.
+
 I did encounter some initial challenges with testing, especially getting the Jest functionality in VSCode to work properly. However, I persevered and eventually managed to create a simple test package with three basic tests to ensure the code's functionality.
+
 Given more time, I would have loved to explore the topic of CSS further and gain a deeper understanding of what modifications could be made to enhance the overall visuals of the project.
+
 In conclusion, this project has been a great learning experience for me. I have learnt about the importance of pull requests to prevent bad code being submitted straight into the main code and how to use agile tools such as a kanban project board. I am proud of the progress I made, especially considering my limited prior knowledge of HTML and JavaScript and feel I adapted well.
 
 

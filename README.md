@@ -62,6 +62,7 @@ Figma was also used to preview some basic functionality of the app. In this prot
 </p>
 
 ### Creating a list of issues
+A ticketing system was created to list all the features required for the project. The idea is that one ticket / issue is created for each feature required. Each item is then created on a seperate branch which is then submitted to Github as a pull request. If the approver approves of the changes and they meet the requirement, then the updated information can be pushed to the main code.
 
 ### Kanban board at start
 

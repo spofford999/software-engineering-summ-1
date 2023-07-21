@@ -4,7 +4,7 @@ const banana_scale = (num) => {
     }
 
     else {
-        return "Please enter a positive number!"
+        return "Please enter a positive number!!"
     }
 }
 

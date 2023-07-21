@@ -39,7 +39,7 @@ It then became a form of joke on the internet as the banana size had no defined 
 <br>
 <br>
 
-### Design & Functionality
+### Design & Functionality 🎨
 
 As the assignment task was to keep the coding simple, the approach to the web app was to create a simple calculator to take an input of a length or distance and divide by a fixed value specified for the size of the banana size to explain how many bananas were equivalent to the input length.
 <br>
@@ -49,7 +49,7 @@ As the assignment task was to keep the coding simple, the approach to the web ap
 </p>
 <br>
 
-### Prototyping in Figma - Image and Functionality
+### Prototyping in Figma - Image and Functionality ⚙️
 
 Figure 4 shows the prototyping from basic layout to final apperance created on Figma. The initial wire frame was just to show a rough layout of the key items required based on the above flow chart. The second image adds more clarity to the text that will appear as the web app is used. Finally the third picture shows the colours and images created for the app as a final proposed design. Playful fonts, colour and images were used based on the light hearted topic of the app!
 
@@ -69,10 +69,10 @@ Figma was also used to preview some basic functionality of the app. In this prot
 </p>
 <br>
 
-### Creating a list of issues
+### Creating a list of issues 📋
 A ticketing system was created to list all the features required for the project. The idea is that one ticket / issue is created for each feature required. Each item is then created on a seperate branch which is then submitted to Github as a pull request. If the approver approves of the changes and they meet the requirement, then the updated information can be pushed to the main code.
 
-### Kanban board at start
+### Kanban board at start 🟥🟧🟨🟩
 To help visualise the issues, a kanban project board was used to identify the status of the various tasks. The image in figure 6 shows the list of issues in the to-do section. As tasks are progressed, they will move along the kanban headings until they are all in the "Done" section of the board, indicating the project is complete.
 
 <br>
@@ -84,7 +84,7 @@ To help visualise the issues, a kanban project board was used to identify the st
 
 ### Agile Sprint techniques - TO DOOOOOOO ARARAR
 
-## Project code and files
+## Project code and files 💻
 To start working through the issues, initially this repository was cloned so it could be opened in VScode. This allowed for file creation, text editing and the de-bugging of code. VScode was used to write all coding elements for this project.
 
 #### Branch - Create HTML & CSS files and explanation of pull requests.
@@ -92,7 +92,7 @@ The first issue for the project was to create the html and css file, as shown in
 
 <br>
 <p align="center">
-  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Pull%20Request%200.jpg?raw=true" alt="drawing" width="600"/> <br>
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Pull%20Request%200.jpg?raw=true" alt="drawing" width="500"/> <br>
   <em>Figure 7 - Pull request for the first issue</em>
 </p>
 <br>
@@ -101,8 +101,8 @@ Once the files were created, they needed to be commited to the repository which 
 
 <br>
 <p align="center">
-  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Pull%20Request%201.jpg?raw=true" alt="drawing" width="600"/> <br>
-  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Pull%20Request%202.jpg?raw=true" alt="drawing" width="600"/> <br>
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Pull%20Request%201.jpg?raw=true" alt="drawing" width="500"/> <br>
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Pull%20Request%202.jpg?raw=true" alt="drawing" width="500"/> <br>
   <em>Figure 8 - The first issue to be worked on</em>
 </p>
 <br>
@@ -112,7 +112,7 @@ The image of the banana and the headings were added to the html code in VScode b
 
 <br>
 <p align="center">
-  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Image%20%26%20Heading.jpg?raw=true" alt="drawing" width="600"/> <br>
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Image%20%26%20Heading.jpg?raw=true" alt="drawing" width="500"/> <br>
   <em>Figure 9 - Adding the image and headings</em>
 </p>
 <br>
@@ -129,7 +129,7 @@ Several other small branches were created to add the input box, button and outpu
 </p>
 <br>
 
-### Current project status
+### Current project status 🟥🟧🟨🟩
 At this stage of the project, it is useful to demonstrate how the project is progressing by viewing the kanban board. The issue raised from the previous paragraph is in the "In Review" section awaiting for approval and to be merged to the main code. The next task is to create small labels that are placed next to the input and output boxes to add further clarity to the information required. There are also several issues that have not been addressed yet and still required to be completed before the project can be closed.
 
 <br>
@@ -140,14 +140,34 @@ At this stage of the project, it is useful to demonstrate how the project is pro
 <br>
 
 #### Branch - Correcting an error if a negative number is entered.
-Coincidentally, during manual testing of different numbers, it was identified that if a negative number was entered it would produce a negative result. This is not correct as it is not possible to have a negative distance. Another ticket was raised to correct this error in the javascript code. This was 
+Coincidentally, during manual testing of different numbers, it was identified that if a negative number was entered it would produce a negative result. This is not correct as it is not possible to have a negative distance. Another ticket was raised to correct this error in the javascript code. The code was modified in VScode and tested in the live server before commiting to the repository on a new branch. Figure 12 shows a useful feature when looking at pull requests as the old code and new code can be seen side by side (or merged) to show the changes made. In this example, the code was updated to contain and if/else statement, where the message "Please enter a positive number!" would show if a negative number was entered into the input box, the result of the code change can be see in figure 13.
+
+<br>
+<p align="center">
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Code%20update.jpg?raw=true" alt="drawing" width="1000"/> <br>
+  <em>Figure 12 - Updating javascript code</em>
+</p>
+<br>
+
+### Final Result 🎨
+Figure 13 also shows the final appearance of the web app based on the coding for the visual and functionailty. The next step will be to create test programs to validate that the program is working as expected.
+
+<br>
+<p align="center">
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Number%20error%204.jpg?raw=true" alt="drawing" width="500"/> <br>
+  <em>Figure 13 - Negative numbers now show an error message</em>
+</p>
+<br>
 
 
-### Unit Testing
+### Unit Testing ⚙️
 
-### Kanban board at end
+### Kanban board at end 🟥🟧🟨🟩
 
-### Evaluation
+### Evaluation 💭
+Enjoyed the use of Github to push/pull changes. Made sense to do it this way.
+Epxerience with HTML / Java was limited before this assignment
+CSS Code improve for better visuals
 
 ### References
 Know your meme. (2014). *Banana for Scale*. [Online]. Know your meme. Last Updated: 2021. Available at: https://knowyourmeme.com/memes/banana-for-scale [Accessed 19 July 2023].

@@ -154,6 +154,7 @@ Coincidentally, during manual testing of different numbers, it was identified th
 
 ### Final Result 🎨
 Figure 13 also shows the final appearance of the web app based on the coding for the visual and functionality. The next step will be to create test programs to validate that the program is working as expected.
+The page can also be accessed using this link: https://spofford999.github.io/software-engineering-summ-1/
 
 <br>
 <p align="center">

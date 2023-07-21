@@ -41,7 +41,7 @@ It then became a form of joke on the internet as the banana size had no defined 
 
 ### Design & Functionality 🎨
 
-As the assignment task was to keep the coding simple, the approach to the web app was to create a simple calculator to take an input of a length or distance and divide by a fixed value specified for the size of the banana size to explain how many bananas were equivalent to the input length.
+As the assignment task was to keep the coding simple, the approach to the web app was to create a simple calculator to take an input of a length or distance and divide by a fixed value specified for the size of the banana size to explain how many bananas were equivalent to the input length. The decided length of a banana was set to 18cm (0.18m).
 <br>
 <p align="center">
   <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Flowchart%202.jpg?raw=true"/><br>
@@ -161,6 +161,17 @@ Figure 13 also shows the final appearance of the web app based on the coding for
 
 
 ### Unit Testing ⚙️
+Throughout this project, manual testing was constantly being used to check functionality of the code. However it was also important to test the code in JEST to identify if there were any other issues with the code. Three test scenarios were created. The first was called a smoke test which is purely to test that the tester is working. A basic sum of 2+2 was used with an expected outcome of 4. If for any reason the Jest program produced a different result to 4 it would be clearly identified that the testing program was not suitable to use. To test my code, I created two criteria. The first was to check that a inputed length of 18 would return 100 (18/0.18). This worked correctly and also when the input value was changed to 17 produced an error, as the answer produced was 94 when it expected 100. To check that negative numbers would not be calculated, another test was created to check if a negative number was entered it would return "Please enter a positive number". This was tested with values of -5 and -10 and both tests successfully passed.
+
+<br>
+<p align="center">
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Test%20Pass%20.jpg?raw=true" alt="drawing" width="500"/> <br>
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Test%20Fail.jpg?raw=true" alt="drawing" width="500"/> <br>
+  <em>Figure 14 - Testing of the code using Jest</em>
+</p>
+<br>
+
+
 
 ### Kanban board at end 🟥🟧🟨🟩
 

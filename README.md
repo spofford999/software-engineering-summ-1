@@ -173,7 +173,15 @@ Throughout this project, manual testing was constantly being used to check funct
 
 
 
-### Kanban board at end 🟥🟧🟨🟩
+### Kanban board at end of project 🟥🟧🟨🟩
+The kanban board shows the completion of all tasks to the Done section of the Kanban board. It was a useful too to track the progress of items to ensure all items were completed for the project.
+
+<br>
+<p align="center">
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Kanban%20end.jpg?raw=true" alt="drawing" width="1000"/> <br>
+  <em>Figure 11 - Project status shown on the kanban board</em>
+</p>
+<br>
 
 ### Evaluation 💭
 Enjoyed the use of Github to push/pull changes. Made sense to do it this way.

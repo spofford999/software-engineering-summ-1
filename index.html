@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"></html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,7 +13,36 @@
     <h1>Banana for scale</h1>    
     <h2>What is the equivalent length in bananas?!?</h2>
     <h3>Enter in metres, the distance to compare. We say a banana is 18cm long!</h3>
+
+    <div class = "container">
+        <form id = "input-form">
+            <input type="number" id="input-field">
+            <label for ="input-field">metres</label>
+            <input type="submit" value="Tell me how many bananas!!" id="input-btn">
+        </form>
+        <p id="output-field" class="output-field"></p>
+        <label for = "output-field">bananas!</label>
+    </div>
+
+    <h4>Wow! That's a lot of bananas! </h4>
     
 </body>
+
+<script src="script.js"></script>
+<script>
+    const inputForm = document.getElementById("input-form")
+    const inputBox = document.getElementById("input-field")
+    const outputBox = document.getElementById("output-field")
+    
+    inputForm.addEventListener('submit', event => {
+        let num1 = inputBox.value;
+        let result = banana_scale(num1);
+            
+
+        event.preventDefault();
+        outputBox.innerHTML=result;
+
+});
+</script>
 
 </html>

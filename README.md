@@ -4,10 +4,12 @@ The aim of this assignment is to create a simple web app written in HTML, CSS an
 
 To achieve this outcome, many steps were undertaken to replicate a software development project. The flow can be seen in figure 1 and is explained in further detail below.
 
+<br>
 <p align="center">
-  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Flowchart.jpg?raw=true"/><br>
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Flowchart.jpg?raw=true" alt="drawing" width="500"/> <br>
   <em>Figure 1 - Simple flow of the software engineering process</em>
 </p>
+<br>
 
 Initially, the design concept of the simple app should be sketched / created on a computer to show the desired appearance and potentially some functionality of the idea to help the development teams. Once the design has been decided, a project should be created using a project management tool such as Github or Jira. For this assignment, Github was used as it is free to use. Numerous tickets known as issues are raised by the design team in the project. Each issue/ticket is a specific requirement for the project completion. An example of a ticket could be that the title should be the font Arial, size 24 and centred on the page. 
 
@@ -26,10 +28,12 @@ Once all tickets are approved and the tickets are closed, the main code should c
 
 To keep the project fun and interesting, I chose to create a simple web app based on a popular internet meme that originated in 2005, known as “Banana for Scale” (Know your meme, 2014). It first originated on a blog called Rockdogdesigns with a description that a TV was for sale. Below is the original post.
 
+<br>
 <p align="center">
   <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Blog%20Post.jpg?raw=true" alt="drawing" width="600"/> <br>
   <em>Figure 2 - The origin of banana for scale</em>
 </p>
+<br>
 
 It then became a form of joke on the internet as the banana size had no defined length but was being used to compare the size of items from animals to furniture, especially on the popular internet site Reddit, where the topic has its own subreddit for posts specifically dedicated to this topic (https://www.reddit.com/r/BananasForScale/).
 <br>
@@ -49,29 +53,95 @@ As the assignment task was to keep the coding simple, the approach to the web ap
 
 Figure 4 shows the prototyping from basic layout to final apperance created on Figma. The initial wire frame was just to show a rough layout of the key items required based on the above flow chart. The second image adds more clarity to the text that will appear as the web app is used. Finally the third picture shows the colours and images created for the app as a final proposed design. Playful fonts, colour and images were used based on the light hearted topic of the app!
 
+<br>
 <p align="center">
   <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Prototype%201.jpg?raw=true" alt="drawing" width="1000"/> <br>
   <em>Figure 4 - Prototyping process</em>
 </p>
+<br>
 
 Figma was also used to preview some basic functionality of the app. In this prototype, the blue arrow attached to the yellow button "How many bananas?" is connected to a second page with the heading calculation. In the prototype mode, clicking on the yellow button takes the user to this second page, which also produces an output number. This is not a calculation but purely to demonstrate the basic functionality of the app. This prototyping tool was useful as it helped open up new ideas and requirements of the design.
 
+<br>
 <p align="center">
   <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Prototype%202.jpg?raw=true" alt="drawing" width="600"/> <br>
   <em>Figure 5 - Prototyping functionality</em>
 </p>
+<br>
 
 ### Creating a list of issues
+A ticketing system was created to list all the features required for the project. The idea is that one ticket / issue is created for each feature required. Each item is then created on a seperate branch which is then submitted to Github as a pull request. If the approver approves of the changes and they meet the requirement, then the updated information can be pushed to the main code.
 
 ### Kanban board at start
+To help visualise the issues, a kanban project board was used to identify the status of the various tasks. The image in figure 6 shows the list of issues in the to-do section. As tasks are progressed, they will move along the kanban headings until they are all in the "Done" section of the board, indicating the project is complete.
 
-### Agile Sprint techniques
+<br>
+<p align="center">
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Kanban%20start.jpg?raw=true" alt="drawing" width="600"/> <br>
+  <em>Figure 6 - Kanban board at the start of the project</em>
+</p>
+<br>
 
-### Code creation using pull requests > How was Figma used to build
-#### Branch 1
-#### Branch 2
+### Agile Sprint techniques - TO DOOOOOOO ARARAR
 
-### Kanban board mid way
+## Project code and files
+To start working through the issues, initially this repository was cloned so it could be opened in VScode. This allowed for file creation, text editing and the de-bugging of code. VScode was used to write all coding elements for this project.
+
+#### Branch - Create HTML & CSS files and explanation of pull requests.
+The first issue for the project was to create the html and css file, as shown in Figure 7. Both the html and css file were created on a new branch within VScode called html-css. It was clearly named to help the future approver understand the issue being worked on. If the changes were not made on a new branch and instead on the main branch, there is a risk that there could be a bug in the code which would effect all the main code. By creating a seperate branch allows the code to be reviewed before pushing the new features to the main code.
+
+<br>
+<p align="center">
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Pull%20Request%200.jpg?raw=true" alt="drawing" width="600"/> <br>
+  <em>Figure 7 - Pull request for the first issue</em>
+</p>
+<br>
+
+Once the files were created, they needed to be commited to the repository which creates a pull request. An example of the pull request for this issue can be seen in figure 8. The pull request requires someone to approve the changes and push them to the main code by merging the pull request. This gives the approver the option to review the changes, and can comment on the change, approve it or request changes if potentially the updates did not meet the criteria of the ticket. Pull requests were used for all changes when commiting new code to the repository.
+
+<br>
+<p align="center">
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Pull%20Request%201.jpg?raw=true" alt="drawing" width="600"/> <br>
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Pull%20Request%202.jpg?raw=true" alt="drawing" width="600"/> <br>
+  <em>Figure 8 - The first issue to be worked on</em>
+</p>
+<br>
+
+#### Branch - Adding image and headings
+The image of the banana and the headings were added to the html code in VScode before being commited to the repository. The position of the images and the text was all controlled in the style.css file. I was happy with how this appeared, but would like to understand more about the use of other fonts that can be used. The font for the prototype made in figma has a more playful approach than the Arial, Helvetica, sans-serif font used in the style.css file, hence why there is slight differences in the text apperance.
+
+<br>
+<p align="center">
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Image%20%26%20Heading.jpg?raw=true" alt="drawing" width="600"/> <br>
+  <em>Figure 9 - Adding the image and headings</em>
+</p>
+<br>
+
+#### Branch - Adding the input, button and calculation
+Several other small branches were created to add the input box, button and output box on the html code. A javascript file called script.js was created and contained the calculation feature that would divide the input number by 18 to calculate the equivalent length in bananas. As can be seen in figure 10, the caluation feature works but the output number contains decimal places. The task was completed in accordance with the ticket but based on the result, a new ticket was raised to edit the javascript code to remove any decimal numbers after the result. Figure 10 shows the stages of the process from initial creation, to new issue raised to the code being modified to fit the new ticket criteria.
+
+<br>
+<p align="center">
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Number%20error%201.jpg?raw=true" alt="drawing" width="250"/>
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Number%20error%205.jpg?raw=true" alt="drawing" width="500"/>
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Number%20error%202.jpg?raw=true" alt="drawing" width="250"/>
+  <em>Figure 10 - The stages to resolve the new issue</em>
+</p>
+<br>
+
+### Current project status
+At this stage of the project, it is useful to demonstrate how the project is progressing by viewing the kanban board. The issue raised from the previous paragraph is in the "In Review" section awaiting for approval and to be merged to the main code. The next task is to create small labels that are placed next to the input and output boxes to add further clarity to the information required. There are also several issues that have not been addressed yet and still required to be completed before the project can be closed.
+
+<br>
+<p align="center">
+  <img src="https://github.com/spofford999/software-engineering-summ-1/blob/main/images/Kanban%20mid.jpg?raw=true" alt="drawing" width="1000"/> <br>
+  <em>Figure 11 - Project status shown on the kanban board</em>
+</p>
+<br>
+
+#### Branch - Correcting an error if a negative number is entered.
+Coincidentally, during manual testing of different numbers, it was identified that if a negative number was entered it would produce a negative result. This is not correct as it is not possible to have a negative distance. Another ticket was raised to correct this error in the javascript code. This was 
+
 
 ### Unit Testing
 
